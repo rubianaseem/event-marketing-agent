@@ -1,0 +1,7 @@
+record_id,email,match,campaign_id,campaign_name,status,reason
+101,maya.patel@northwind-analytics.example,crm_email,cmp-ldn-revops-dec26,2026-12 London RevOps Roundtable,attended,event_attended
+,tom.reid@northwind-analytics.example,released_invite_import,cmp-ldn-revops-dec26,2026-12 London RevOps Roundtable,registered_no_show,event_registered_no_show
+105,chloe.byrne@kestrelcloud.example,crm_email,cmp-ldn-revops-dec26,2026-12 London RevOps Roundtable,attended,event_attended
+,omar.h@outlook.com,released_invite_import,cmp-ldn-revops-dec26,2026-12 London RevOps Roundtable,registered_no_show,event_registered_no_show
+,noah.fischer@tidewater.example,released_invite_import,cmp-ldn-revops-dec26,2026-12 London RevOps Roundtable,attended,event_attended
+,isla.murray@beaconly.example,released_invite_import,cmp-ldn-revops-dec26,2026-12 London RevOps Roundtable,registered_no_show,event_registered_no_show

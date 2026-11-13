@@ -1,0 +1,88 @@
+{
+  "artifacts": {
+    "brief.md": {
+      "approvable": false,
+      "sha256": "09afec3ad0a6459e1ce8f8544a1e757b29a2b9adde725f0a1b7b6724125ddda0"
+    },
+    "enrichment_request.json": {
+      "approvable": true,
+      "sha256": "0625542dd2142ab25cb29c8e3b5817e1ad95d3561f8aaa1695ca7fccdd50a3ce"
+    },
+    "hubspot_import_proposed.csv": {
+      "approvable": true,
+      "sha256": "bf130086ba092d6caa3d9689c71e7595fbef875250fcc8e4ee431d022570a72c"
+    },
+    "invite_drafts.md": {
+      "approvable": false,
+      "sha256": "069232edb8e78b34b96b8c5f142999656eaa10fad769dfbe481a982f1fa01540"
+    },
+    "owner_requests.md": {
+      "approvable": false,
+      "sha256": "f33a485afbc78f796e88326984652a7a02fc7ff3030b65aac734963861ddf843"
+    },
+    "review_queue.csv": {
+      "approvable": false,
+      "sha256": "498d6e581b11553af8d19441078656aaaab61d5d1b722b7b8b5cecbc2a708856"
+    },
+    "target_list.csv": {
+      "approvable": false,
+      "sha256": "54d80b9c6def6f410386a9dbfd534eae007538ceda731974126debf422b3641a"
+    }
+  },
+  "as_of": "2026-11-13T12:00:00Z",
+  "counts": {
+    "EXCLUDE_COMPETITOR": 1,
+    "EXCLUDE_CUSTOMER": 1,
+    "EXCLUDE_INTERNAL": 1,
+    "EXCLUDE_PERSONA": 1,
+    "EXCLUDE_REGION": 1,
+    "EXCLUDE_SEGMENT": 2,
+    "EXCLUDE_SUPPRESSED": 3,
+    "HOLD_CONSENT": 1,
+    "HOLD_MISSING_DATA": 1,
+    "HOLD_OWNER_APPROVAL": 1,
+    "INVITE": 10,
+    "QUARANTINE_INVALID_EMAIL": 1,
+    "QUARANTINE_UNTRUSTED_TEXT": 1,
+    "REVIEW_POSSIBLE_DUPLICATE": 1,
+    "WAITLIST_ACCOUNT_CAP": 1,
+    "WAITLIST_CAPACITY": 2
+  },
+  "event_id": "evt-2026-12-ldn-revops",
+  "exported_at": "2026-11-13T09:00:00Z",
+  "inputs": {
+    "candidates": {
+      "path": "../../sample_candidates.csv",
+      "sha256": "f3a95b16899879f9067348b02e6a684af7e67b98be187fc6821eca0c0d84a69b"
+    },
+    "crm_companies": {
+      "path": "../../sample_crm_companies.csv",
+      "sha256": "0e57dc117667441681d5336d0f1daac22bf31049ec4397e24061ed36e03d4c23"
+    },
+    "crm_contacts": {
+      "path": "../../sample_crm_contacts.csv",
+      "sha256": "2a0ecdde01e968c2380f2b48a4caf146813c26977dcddca53be2f207e4bfcc9b"
+    },
+    "crm_deals": {
+      "path": "../../sample_crm_deals.csv",
+      "sha256": "6d7960ef024ef84f1989c041c607362906baed4e74287e6ee2cea02d14e66e86"
+    },
+    "crm_manifest": {
+      "path": "../../sample_export_manifest.json",
+      "sha256": "ce170ba79950b8088e7b6ae2538bc28d3a993a58a46faf5f5b97c0011ec801c1"
+    },
+    "owners": {
+      "path": "../../sample_owners.csv",
+      "sha256": "339027552050de8bfbf61f19315e6aef257764fb2973d833ab57dfb75ce03c0c"
+    },
+    "suppression": {
+      "path": "../../sample_suppression.csv",
+      "sha256": "762c541e5437320698754b6b5c366715e59c99f9f8b3a4d8f85455a5983cb696"
+    }
+  },
+  "policy_version": "2026-11-13.1",
+  "run_id": "run_e31d24ddd1ec",
+  "snapshot_age_hours": 3.0,
+  "stale": false,
+  "writes_performed": "none (local files only)"
+}

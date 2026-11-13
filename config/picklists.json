@@ -1,0 +1,7 @@
+{
+  "_note": "Allowed internal values of HubSpot picklist properties, copied from Settings > Properties. Proposed values outside these lists block the artifact.",
+  "event_source_detail": ["event_ldn_revops_roundtable_dec26", "event_saastr_europa_jun26", "webinar_crm_hygiene_oct26"],
+  "first_touch_source": ["Event", "Webinar", "Paid Social", "Organic Search", "Referral", "Partner", "Outbound"],
+  "last_touch_source": ["Event", "Webinar", "Paid Social", "Organic Search", "Referral", "Partner", "Outbound"],
+  "event_attendance_status": ["Invited", "Registered", "Attended", "No show"]
+}

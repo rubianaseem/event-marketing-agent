@@ -1,0 +1,8 @@
+{
+  "artifact": "attribution_updates_proposed.csv",
+  "sha256": "bd1b405e33697f92a73e24ff771c87491d8bbd7e56da296bddbe2d1b028f127f",
+  "approved_by": "Rubia Naseem",
+  "approved_at": "2026-12-04T10:00:00Z",
+  "released_at": "2026-12-04T10:00:00Z",
+  "next_step": "Manual: HubSpot import, update existing contacts only, matched on Record ID."
+}

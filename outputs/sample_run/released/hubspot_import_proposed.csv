@@ -1,0 +1,11 @@
+Record ID,Email,First Name,Last Name,Job Title,Company Name,Company Domain Name,Country/Region,event_attendance_status,event_invite_tier,import_action
+105,chloe.byrne@kestrelcloud.example,Chloe,Byrne,Head of Marketing Ops,Kestrel Cloud,kestrelcloud.example,IE,Invited,A,update
+,o.wren@stratus-hr.example,Oliver,Wren,Director of Sales Operations,Stratus HR,stratus-hr.example,UK,Invited,A,create
+101,maya.patel@northwind-analytics.example,Maya,Patel,Head of Revenue Operations,Northwind Analytics Ltd,northwind-analytics.example,UK,Invited,A,update
+,omar.h@outlook.com,Omar,Haddad,RevOps Director,Kestrel Cloud,kestrelcloud.example,IE,Invited,A,create
+,noah.fischer@tidewater.example,Noah,Fischer,VP Sales Operations,Tidewater Systems,tidewater.example,UK,Invited,A,create
+,mia.torres@orbitfin.example,Mia,Torres,Head of Sales Operations,Orbit Finance,orbitfin.example,UK,Invited,A,create
+108,priya.shah@helixsoft.example,Priya,Shah,VP Revenue Operations,Helixsoft,helixsoft.example,UK,Invited,A,update
+,isla.murray@beaconly.example,Isla,Murray,Head of CRM,Beaconly,beaconly.example,IE,Invited,A,create
+,jack.pryce@meridianpay.example,Jack,Pryce,RevOps Manager,Meridian Pay,meridianpay.example,UK,Invited,B,create
+,tom.reid@northwind-analytics.example,Tom,Reid,Marketing Operations Manager,Northwind Analytics Ltd,northwind-analytics.example,UK,Invited,B,create

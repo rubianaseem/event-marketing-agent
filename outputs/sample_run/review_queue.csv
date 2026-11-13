@@ -1,0 +1,8 @@
+row,email,company,decision,why,suggested_action,detail
+3,ruth.osei@northwind-analytics.example,Northwind Analytics,REVIEW_POSSIBLE_DUPLICATE,Same person may already exist in the CRM under another email.,Merge in HubSpot first or confirm they are different people.,crm_records:107
+6,j.howard@harbourline.example,Harbourline Payments,HOLD_OWNER_APPROVAL,Open deal owned by a team outside the event's owning teams. Needs that owner's OK.,Ask the deal owner (draft in owner_requests.md). Add to a later run if they agree.,open_deal:d1;owner_team:Enterprise EMEA
+11,aoife.walsh@gmail.com,Kestrel Cloud,HOLD_CONSENT,Personal email address with no recorded opt-in. Needs a lawful basis decision.,"Decide lawful basis for a personal address, or ask the person to register via the form.",personal_email_no_opt_in
+19,tom.baker@brightline,Brightline Logistics,QUARANTINE_INVALID_EMAIL,Email address is not valid.,Fix the address at source (suggested domain in detail) and re-run.,suggest:brightline.example
+20,kai.nunez@vantorahq.example,Vantora,QUARANTINE_UNTRUSTED_TEXT,Free text looks like instructions to a model or system.,Read the source row yourself. The text was not passed to any model.,notes_injection_markers
+23,mia.torres@orbitfin.example,Orbit Finance,INVITE,Enrichment description contained instruction-like text.,Enrichment text was dropped as untrusted; decision used structured fields only.,enrichment_description_quarantined
+24,ethan.cole@palisade.example,Palisade Data,HOLD_MISSING_DATA,Country or company size still unknown after enrichment.,Fill country/size by hand or leave out.,missing:employees

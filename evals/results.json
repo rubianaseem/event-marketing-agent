@@ -1,0 +1,224 @@
+{
+  "attribution": {
+    "agent": {
+      "all_fields_correct": 1.0,
+      "cases": 14,
+      "first_touch_overwrites": 0,
+      "last_touch_errors": 0,
+      "missed_associations": 0,
+      "wrong_campaign_associations": 0
+    },
+    "baseline": {
+      "all_fields_correct": 0.071,
+      "cases": 14,
+      "first_touch_overwrites": 5,
+      "last_touch_errors": 10,
+      "missed_associations": 0,
+      "wrong_campaign_associations": 8
+    }
+  },
+  "credits_on_sample": {
+    "agent_domains": 4,
+    "agent_estimated_credits": 9,
+    "naive_estimated_credits": 35,
+    "naive_rows": 17
+  },
+  "failure_suite": {
+    "passed": 22,
+    "scenarios": [
+      {
+        "id": "F01",
+        "name": "enrichment refused until the request is approved and released",
+        "passed": true
+      },
+      {
+        "id": "F02",
+        "name": "agent identity cannot approve",
+        "passed": true
+      },
+      {
+        "id": "F03",
+        "name": "approval with a hash that does not match the file is refused",
+        "passed": true
+      },
+      {
+        "id": "F04",
+        "name": "edit after approval voids the release",
+        "passed": true
+      },
+      {
+        "id": "F05",
+        "name": "stale CRM snapshot cannot be approved",
+        "passed": true
+      },
+      {
+        "id": "F06",
+        "name": "expired approval cannot be released",
+        "passed": true
+      },
+      {
+        "id": "F07",
+        "name": "429 with Retry-After is retried and succeeds",
+        "passed": true
+      },
+      {
+        "id": "F08",
+        "name": "persistent 5xx ends as failed and is not cached",
+        "passed": true
+      },
+      {
+        "id": "F09",
+        "name": "crash mid-enrichment then resume charges no domain twice",
+        "passed": true
+      },
+      {
+        "id": "F10",
+        "name": "rerun uses the cache: zero provider calls",
+        "passed": true
+      },
+      {
+        "id": "F11",
+        "name": "input file changed after plan: build refused",
+        "passed": true
+      },
+      {
+        "id": "F12",
+        "name": "enrichment results for a different request: build refused",
+        "passed": true
+      },
+      {
+        "id": "F13",
+        "name": "replay with same inputs gives byte-identical artifacts",
+        "passed": true
+      },
+      {
+        "id": "F14",
+        "name": "second run for the same event does not re-propose invites",
+        "passed": true
+      },
+      {
+        "id": "F15",
+        "name": "unknown picklist value blocks attribution artifacts",
+        "passed": true
+      },
+      {
+        "id": "F16",
+        "name": "unreleased plan run is ignored by attribution",
+        "passed": true
+      },
+      {
+        "id": "F17",
+        "name": "tampered decision trace fails verification",
+        "passed": true
+      },
+      {
+        "id": "F18",
+        "name": "model output with injected text or link is rejected",
+        "passed": true
+      },
+      {
+        "id": "F19",
+        "name": "model 429 then invalid JSON falls back to template",
+        "passed": true
+      },
+      {
+        "id": "F20",
+        "name": "credit estimate over the cap flags escalation",
+        "passed": true
+      },
+      {
+        "id": "F21",
+        "name": "duplicate attendance rows give one association",
+        "passed": true
+      },
+      {
+        "id": "F22",
+        "name": "decision trace holds no raw email addresses",
+        "passed": true
+      }
+    ],
+    "total": 22
+  },
+  "injected_enrichment_text_quarantined": 1,
+  "policy_version": "2026-11-13.1",
+  "targeting": {
+    "agent": {
+      "cases": 42,
+      "duplicate_creates": 0,
+      "exact_accuracy": 0.952,
+      "hard_control_violations": 2,
+      "hard_control_violations_excluding_held_out": 0,
+      "invite_precision": 0.846,
+      "invite_recall": 1.0,
+      "misses": [
+        "t17:EXCLUDE_SUPPRESSED->INVITE",
+        "t30:QUARANTINE_UNTRUSTED_TEXT->INVITE"
+      ],
+      "violation_ids": [
+        "t17",
+        "t30"
+      ]
+    },
+    "baseline": {
+      "cases": 42,
+      "duplicate_creates": 1,
+      "exact_accuracy": 0.357,
+      "hard_control_violations": 20,
+      "hard_control_violations_excluding_held_out": 18,
+      "invite_precision": 0.289,
+      "invite_recall": 1.0,
+      "misses": [
+        "t12:EXCLUDE_SUPPRESSED->INVITE",
+        "t13:EXCLUDE_SUPPRESSED->INVITE",
+        "t14:EXCLUDE_SUPPRESSED->INVITE",
+        "t15:EXCLUDE_SUPPRESSED->INVITE",
+        "t16:EXCLUDE_SUPPRESSED->INVITE",
+        "t17:EXCLUDE_SUPPRESSED->INVITE",
+        "t18:EXCLUDE_CUSTOMER->INVITE",
+        "t19:EXCLUDE_CUSTOMER->INVITE",
+        "t20:HOLD_OWNER_APPROVAL->INVITE",
+        "t21:HOLD_OWNER_APPROVAL->INVITE",
+        "t22:HOLD_CONSENT->INVITE",
+        "t23:HOLD_CONSENT->INVITE",
+        "t24:REVIEW_POSSIBLE_DUPLICATE->INVITE",
+        "t25:REVIEW_POSSIBLE_DUPLICATE->INVITE",
+        "t28:QUARANTINE_UNTRUSTED_TEXT->INVITE",
+        "t29:QUARANTINE_UNTRUSTED_TEXT->INVITE",
+        "t30:QUARANTINE_UNTRUSTED_TEXT->INVITE",
+        "t32:EXCLUDE_REGION->INVITE",
+        "t33:EXCLUDE_SEGMENT->INVITE",
+        "t34:EXCLUDE_SEGMENT->INVITE",
+        "t35:EXCLUDE_PERSONA->INVITE",
+        "t36:EXCLUDE_PERSONA->INVITE",
+        "t37:EXCLUDE_COMPETITOR->INVITE",
+        "t38:EXCLUDE_INTERNAL->INVITE",
+        "t39:HOLD_MISSING_DATA->INVITE",
+        "t40:HOLD_NEEDS_ENRICHMENT->INVITE",
+        "t41:EXCLUDE_SUPPRESSED->INVITE"
+      ],
+      "violation_ids": [
+        "t12",
+        "t13",
+        "t14",
+        "t15",
+        "t16",
+        "t17",
+        "t18",
+        "t19",
+        "t20",
+        "t21",
+        "t22",
+        "t23",
+        "t24",
+        "t25",
+        "t28",
+        "t29",
+        "t30",
+        "t37",
+        "t38",
+        "t41"
+      ]
+    }
+  },
+  "version": "cases_v1"
+}

@@ -1,0 +1,2 @@
+# Optional: only needed if you set ANTHROPIC_API_KEY so Claude writes one personal line per invite.
+anthropic>=0.40,<1

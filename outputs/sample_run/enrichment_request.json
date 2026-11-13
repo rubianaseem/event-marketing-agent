@@ -1,0 +1,56 @@
+{
+  "credit_assumption_note": "Credits per field are YOUR assumption for budgeting, not published Clay pricing. Set them from your own workspace before approving a real run.",
+  "domains": 4,
+  "escalation_required": false,
+  "estimated_credits_total": 9,
+  "event_id": "evt-2026-12-ldn-revops",
+  "items": [
+    {
+      "domain": "orbitfin.example",
+      "estimated_credits": 2,
+      "fields": [
+        "employees",
+        "industry"
+      ],
+      "rows": [
+        23
+      ]
+    },
+    {
+      "domain": "palisade.example",
+      "estimated_credits": 2,
+      "fields": [
+        "employees",
+        "industry"
+      ],
+      "rows": [
+        24
+      ]
+    },
+    {
+      "domain": "quillstack.example",
+      "estimated_credits": 2,
+      "fields": [
+        "employees",
+        "industry"
+      ],
+      "rows": [
+        16
+      ]
+    },
+    {
+      "domain": "tidewater.example",
+      "estimated_credits": 3,
+      "fields": [
+        "country",
+        "employees",
+        "industry"
+      ],
+      "rows": [
+        15
+      ]
+    }
+  ],
+  "max_credits_without_escalation": 40,
+  "provider": "mock (sample_enrichment.csv)"
+}

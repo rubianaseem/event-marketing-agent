@@ -1,0 +1,14 @@
+# SYNTHETIC DATA. Post-event registration and check-in export from the event platform.
+email,name,status,checked_in_at,company
+maya.patel@northwind-analytics.example,Maya Patel,Checked in,2026-12-03 18:05,Northwind Analytics
+TOM.REID@northwind-analytics.example,Tom Reid,Registered,,Northwind
+chloe.byrne@kestrelcloud.example,Chloe Byrne,Attended,2026-12-03 18:20,Kestrel Cloud
+chloe.byrne@kestrelcloud.example,Chloe Byrne,attended,2026-12-03 18:21,Kestrel Cloud
+omar.h@outlook.com,Omar Haddad,No-show,,Kestrel Cloud
+noah.fischer@tidewater.example,Noah Fischer,Attended,2026-12-03 18:02,Tidewater Systems
+priya.shah@helixsoft.example,Priya Shah,Attended,2026-12-03 18:10,Helixsoft
+mia.torres@orbitfin.example,Mia Torres,Cancelled,,Orbit Finance
+nina.lowe@helixsoft.example,Nina Lowe,Walk-in,2026-12-03 18:40,Helixsoft
+zoe.hart@rubia-demo.example,Zoe Hart,Checked in,2026-12-03 17:30,Rubia Demo
+o.wren@stratus-hr.example,Oliver Wren,Attended,2026-11-20 09:00,Stratus HR
+isla.murray@beaconly.example,Isla Murray,Registered,,Beaconly

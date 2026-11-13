@@ -1,0 +1,39 @@
+{
+  "_note": "SYNTHETIC example event. Edit this file for your own event.",
+  "event_id": "evt-2026-12-ldn-revops",
+  "name": "London RevOps Leaders Roundtable",
+  "event_date": "2026-12-03",
+  "regions": [
+    "UK",
+    "IE"
+  ],
+  "segments": [
+    "mid_market",
+    "enterprise"
+  ],
+  "customer_only": false,
+  "target_personas": [
+    "revops",
+    "revenue operations",
+    "sales operations",
+    "sales ops",
+    "marketing operations",
+    "marketing ops",
+    "gtm",
+    "cro",
+    "chief revenue",
+    "head of revenue",
+    "vp revenue",
+    "crm"
+  ],
+  "min_seniority": "manager",
+  "owning_teams": [
+    "UK Mid-Market"
+  ],
+  "invite_capacity": 10,
+  "max_invites_per_account": 2,
+  "hubspot_campaign_id": "cmp-ldn-revops-dec26",
+  "hubspot_campaign_name": "2026-12 London RevOps Roundtable",
+  "event_source_value": "event_ldn_revops_roundtable_dec26",
+  "touch_source_value": "Event"
+}

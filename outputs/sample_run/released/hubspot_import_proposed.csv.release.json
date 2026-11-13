@@ -1,0 +1,8 @@
+{
+  "artifact": "hubspot_import_proposed.csv",
+  "sha256": "bf130086ba092d6caa3d9689c71e7595fbef875250fcc8e4ee431d022570a72c",
+  "approved_by": "Rubia Naseem",
+  "approved_at": "2026-11-13T12:00:00Z",
+  "released_at": "2026-11-13T12:00:00Z",
+  "next_step": "Manual: HubSpot Contacts > Import, create and update, matched on email. The agent performs no CRM writes."
+}

@@ -1,0 +1,8 @@
+{
+  "_note": "Who may approve which artifact. Approval always needs the full SHA-256 of the file the person reviewed. Agent or service identities are never allowed.",
+  "approvers": {
+    "rubia": {"name": "Rubia Naseem", "artifacts": ["enrichment_request.json", "hubspot_import_proposed.csv", "campaign_associations_proposed.csv", "attribution_updates_proposed.csv"]},
+    "uk-mm-sales-lead": {"name": "UK Mid-Market sales lead (example)", "artifacts": ["hubspot_import_proposed.csv"]}
+  },
+  "blocked_identities": ["agent", "event-marketing-agent", "service", "bot", "system"]
+}

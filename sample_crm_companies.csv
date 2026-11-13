@@ -1,0 +1,8 @@
+# SYNTHETIC DATA. HubSpot-shaped company export.
+company_id,name,domain,owner_id,is_customer,country,employees,industry
+c100,Northwind Analytics Ltd,northwind-analytics.example,o1,false,United Kingdom,450,Software
+c101,Harbourline Payments,harbourline.example,o2,false,UK,2300,Fintech
+c102,Copperleaf Health,copperleaf.example,o1,true,United Kingdom,800,Healthcare technology
+c103,Brightline Logistics,brightline.example,o3,false,United Kingdom,600,Logistics
+c104,Kestrel Cloud,kestrelcloud.example,o1,false,Ireland,320,SaaS
+c105,Fernway Consulting,fernway.example,o2,false,GB,150,Professional services

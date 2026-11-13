@@ -1,0 +1,10 @@
+# SYNTHETIC DATA. HubSpot-shaped contact export (custom touch properties, not native traffic source).
+record_id,email,firstname,lastname,company_id,lifecyclestage,unsubscribed,marketing_opt_in,first_touch_source,first_touch_campaign,last_touch_source,last_touch_campaign,campaign_ids
+101,maya.patel@northwind-analytics.example,Maya,Patel,c100,lead,false,true,Organic Search,,Webinar,webinar_crm_hygiene_oct26,
+102,j.howard@harbourline.example,James,Howard,c101,opportunity,false,true,Outbound,,Outbound,,
+103,leo.grant@copperleaf.example,Leo,Grant,c102,customer,false,true,Referral,,Webinar,webinar_crm_hygiene_oct26,
+104,ben.adler@brightline.example,Ben,Adler,c103,lead,true,false,Paid Social,,Paid Social,,
+105,chloe.byrne@kestrelcloud.example,Chloe,Byrne,c104,salesqualifiedlead,false,true,,,,,
+106,sam.ellis@fernway.example,Sam,Ellis,c105,lead,false,true,Partner,,Partner,,
+107,r.osei@northwind-analytics.example,Ruth,Osei,c100,lead,false,true,Organic Search,,Organic Search,,
+108,priya.shah@helixsoft.example,Priya,Shah,,lead,false,true,Webinar,webinar_crm_hygiene_oct26,Webinar,webinar_crm_hygiene_oct26,cmp-ldn-revops-dec26

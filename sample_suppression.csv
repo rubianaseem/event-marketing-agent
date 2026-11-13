@@ -1,0 +1,4 @@
+# SYNTHETIC DATA. Global suppression list (hard bounces, spam complaints, legal requests).
+email,reason,added_at
+grace.lin@brightline.example,hard_bounce,2026-09-14
+SPAM.TRAP@quillstack.example,spam_complaint,2026-08-02

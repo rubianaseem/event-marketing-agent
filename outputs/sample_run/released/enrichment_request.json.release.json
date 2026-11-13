@@ -1,0 +1,8 @@
+{
+  "artifact": "enrichment_request.json",
+  "sha256": "0625542dd2142ab25cb29c8e3b5817e1ad95d3561f8aaa1695ca7fccdd50a3ce",
+  "approved_by": "Rubia Naseem",
+  "approved_at": "2026-11-13T12:00:00Z",
+  "released_at": "2026-11-13T12:00:00Z",
+  "next_step": "Run `python agent.py enrich --run-dir <run>` (mock provider). For a real Clay run, get the row count and credits approved in Clay by the budget owner first."
+}

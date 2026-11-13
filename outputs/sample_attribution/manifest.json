@@ -1,0 +1,81 @@
+{
+  "artifacts": {
+    "attribution_brief.md": {
+      "approvable": false,
+      "sha256": "0d4c96c52fd8dcf7d662993d3c9ec0195fed4655619577534d6a0e8b8e7f79d8"
+    },
+    "attribution_review.csv": {
+      "approvable": false,
+      "sha256": "c3eec1bcfd1621165fa9cc9cd2d19f51a813c26c1e9e546d04069b4e7ead61fe"
+    },
+    "attribution_updates_proposed.csv": {
+      "approvable": true,
+      "sha256": "bd1b405e33697f92a73e24ff771c87491d8bbd7e56da296bddbe2d1b028f127f"
+    },
+    "campaign_associations_proposed.csv": {
+      "approvable": true,
+      "sha256": "dad7e38f834d293b67fc7df3847f40bcf7e12a38425b6b13936ef29d919902fa"
+    }
+  },
+  "as_of": "2026-12-04T10:00:00Z",
+  "event_id": "evt-2026-12-ldn-revops",
+  "exported_at": "2026-12-04T08:30:00Z",
+  "inputs": {
+    "attendance": {
+      "path": "../../sample_attendance.csv",
+      "sha256": "a6d86a9c0431d74cd2cf3ac061aa7c413d567ab6ec17071bbdcb3db1edab13d7"
+    },
+    "crm_companies": {
+      "path": "../../sample_crm_companies.csv",
+      "sha256": "0e57dc117667441681d5336d0f1daac22bf31049ec4397e24061ed36e03d4c23"
+    },
+    "crm_contacts": {
+      "path": "../../sample_crm_contacts.csv",
+      "sha256": "2a0ecdde01e968c2380f2b48a4caf146813c26977dcddca53be2f207e4bfcc9b"
+    },
+    "crm_deals": {
+      "path": "../../sample_crm_deals.csv",
+      "sha256": "6d7960ef024ef84f1989c041c607362906baed4e74287e6ee2cea02d14e66e86"
+    },
+    "crm_manifest": {
+      "path": "../../sample_export_manifest_post_event.json",
+      "sha256": "71a046740288faa34681669f522f6afa8eb52d1b1d966d1e2e9dbc892e121b13"
+    },
+    "owners": {
+      "path": "../../sample_owners.csv",
+      "sha256": "339027552050de8bfbf61f19315e6aef257764fb2973d833ab57dfb75ce03c0c"
+    },
+    "suppression": {
+      "path": "../../sample_suppression.csv",
+      "sha256": "762c541e5437320698754b6b5c366715e59c99f9f8b3a4d8f85455a5983cb696"
+    }
+  },
+  "plan_run": {
+    "path": "../sample_run",
+    "released_import_sha256": "bf130086ba092d6caa3d9689c71e7595fbef875250fcc8e4ee431d022570a72c"
+  },
+  "policy_version": "2026-11-13.1",
+  "run_id": "attr_bf5d583e29f6",
+  "snapshot_age_hours": 1.5,
+  "stale": false,
+  "stats": {
+    "already_associated_skipped": 1,
+    "associations_proposed": 6,
+    "attendance_rows_after_dedupe": 11,
+    "blocked": false,
+    "decisions": {
+      "EXCLUDE_INTERNAL": 1,
+      "NO_ACTION_CANCELLED": 1,
+      "PROPOSE": 7,
+      "REVIEW_CHECKIN_DATE": 1,
+      "REVIEW_UNKNOWN_ATTENDEE": 1
+    },
+    "duplicate_rows_merged": 1,
+    "first_touch_preserved": 2,
+    "first_touch_set": 1,
+    "first_touch_unverified": 4,
+    "last_touch_event": 4,
+    "review": 2
+  },
+  "writes_performed": "none (local files only)"
+}

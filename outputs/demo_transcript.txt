@@ -1,0 +1,56 @@
+== 1. plan: dedupe, CRM match, hard gates, enrichment request
+run run_e31d24ddd1ec: 4 domains need enrichment, estimated 9 credits (your per-field assumption)
+
+== 2. try to enrich before approval
+REFUSED: enrichment_request.json has not been approved and released; no enrichment run
+
+== 3. approval attempts on enrichment_request.json (simulated reviewer)
+REFUSED (agent): 'agent' is an agent/service identity and can never approve
+REFUSED (rubia): hash does not match the file on disk; review the current file and use its hash
+approved by Rubia Naseem with sha256 0625542dd214..., released
+
+== 4. enrich with the MOCK provider (429 and 5xx injected; sleeps skipped in the demo)
+  orbitfin.example: found after 3 attempt(s)
+  palisade.example: not_found after 1 attempt(s)
+  quillstack.example: found after 1 attempt(s)
+  tidewater.example: found after 2 attempt(s)
+provider calls 7, credits charged 9
+re-run: provider calls 0, credits charged 0 (cache, no double spend)
+
+== 5. build: post-enrichment gates, ranking, capacity, drafts, import proposal
+  INVITE: 10
+  EXCLUDE_SUPPRESSED: 3
+  EXCLUDE_SEGMENT: 2
+  WAITLIST_CAPACITY: 2
+  EXCLUDE_COMPETITOR: 1
+  EXCLUDE_CUSTOMER: 1
+  EXCLUDE_INTERNAL: 1
+  EXCLUDE_PERSONA: 1
+  EXCLUDE_REGION: 1
+  HOLD_CONSENT: 1
+  HOLD_MISSING_DATA: 1
+  HOLD_OWNER_APPROVAL: 1
+  QUARANTINE_INVALID_EMAIL: 1
+  QUARANTINE_UNTRUSTED_TEXT: 1
+  REVIEW_POSSIBLE_DUPLICATE: 1
+  WAITLIST_ACCOUNT_CAP: 1
+import rows 10, review rows 7
+
+== 6. approve and release the import (simulated)
+released outputs/sample_run/released/hubspot_import_proposed.csv; the HubSpot import itself is a manual step
+
+== 7. after the event: attribution proposals
+  associations_proposed: 6
+  already_associated_skipped: 1
+  first_touch_set: 1
+  first_touch_preserved: 2
+  first_touch_unverified: 4
+  last_touch_event: 4
+  review: 2
+associations and attribution updates approved and released (simulated); applying them in HubSpot is manual
+
+== 8. verify hash-chained logs
+  sample_run/decisions.jsonl: ok (82 records)
+  sample_run/approvals.jsonl: ok (4 records)
+  sample_attribution/decisions.jsonl: ok (12 records)
+  sample_attribution/approvals.jsonl: ok (4 records)

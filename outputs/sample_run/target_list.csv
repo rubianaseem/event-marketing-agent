@@ -1,0 +1,30 @@
+row,merged_rows,first_name,last_name,email,company,title,source,decision,reasons,tier,score,rank,company_match,crm_record_id,enrichment_status,dq
+1,1;2,Maya,Patel,maya.patel@northwind-analytics.example,Northwind Analytics,Head of Revenue Operations,partner_list+past_event,INVITE,invite;tier:A;mid_market;icp_industry;director_plus;prior_event,A,7,3,contact_record,101,,
+3,3,Ruth,Osei,ruth.osei@northwind-analytics.example,Northwind Analytics,Director Sales Operations,sales_nominated,REVIEW_POSSIBLE_DUPLICATE,review_possible_duplicate;crm_records:107,,,,domain,,,"backfilled_from_crm:employees,industry"
+4,4,Tom,Reid,tom.reid@northwind-analytics.example,Northwind,Marketing Operations Manager,partner_list,INVITE,invite;tier:B;mid_market;icp_industry,B,4,10,domain,,,"backfilled_from_crm:employees,industry"
+5,5,Hana,Kim,hana.kim@northwind-analytics.example,Northwind,CRM Manager,website_signup,WAITLIST_ACCOUNT_CAP,waitlist_account_cap;account:c100,B,4,11,domain,,,"backfilled_from_crm:employees,industry"
+6,6,James,Howard,j.howard@harbourline.example,Harbourline Payments,VP Revenue,partner_list,HOLD_OWNER_APPROVAL,hold_owner_approval;open_deal:d1;owner_team:Enterprise EMEA,,,,contact_record,102,,
+7,7,Leo,Grant,leo.grant@copperleaf.example,Copperleaf Health,Director of RevOps,past_event,EXCLUDE_CUSTOMER,exclude_customer,,,,contact_record,103,,"backfilled_from_crm:employees,industry"
+8,8,Ben,Adler,ben.adler@brightline.example,Brightline Logistics,Head of Sales Ops,partner_list,EXCLUDE_SUPPRESSED,exclude_suppressed;crm_unsubscribed,,,,contact_record,104,,"backfilled_from_crm:employees,industry"
+9,9,Grace,Lin,grace.lin@brightline.example,Brightline Logistics,RevOps Manager,partner_list,EXCLUDE_SUPPRESSED,exclude_suppressed;suppression_list:hard_bounce,,,,domain,,,"backfilled_from_crm:employees,industry"
+10,10,Chloe,Byrne,chloe.byrne@kestrelcloud.example,Kestrel Cloud,Head of Marketing Ops,sales_nominated,INVITE,invite;tier:A;mid_market;icp_industry;director_plus;sales_nominated;open_deal_owning_team,A,9,1,contact_record,105,,"backfilled_from_crm:employees,industry"
+11,11,Aoife,Walsh,aoife.walsh@gmail.com,Kestrel Cloud,Sales Operations Lead,website_signup,HOLD_CONSENT,hold_consent;personal_email_no_opt_in,,,,company_name,,,"backfilled_from_crm:employees,industry"
+12,12,Omar,Haddad,omar.h@outlook.com,Kestrel Cloud Ltd,RevOps Director,website_signup,INVITE,invite;tier:A;mid_market;icp_industry;director_plus;open_deal_owning_team,A,7,4,company_name,,,"backfilled_from_crm:employees,industry"
+13,13,Sam,Ellis,sam.ellis@fernway.example,Fernway Consulting,Head of RevOps,partner_list,EXCLUDE_SEGMENT,exclude_segment;segment:smb;employees:150,,,,contact_record,106,,"backfilled_from_crm:employees,industry"
+14,14,Ava,Brooks,ava.brooks@lumenpay.example,LumenPay,CRO,partner_list,EXCLUDE_REGION,exclude_region;country:US,,,,none,,,
+15,15,Noah,Fischer,noah.fischer@tidewater.example,Tidewater Systems,VP Sales Operations,past_event,INVITE,invite;tier:A;mid_market;icp_industry;director_plus;prior_event,A,7,5,none,,found,
+16,16,Ella,Moss,ella.moss@quillstack.example,Quillstack,RevOps Lead,partner_list,EXCLUDE_SEGMENT,exclude_segment;segment:smb;employees:40,,,,none,,found,
+17,17,Isaac,Shaw,isaac.shaw@rivalcrm.example,RivalCRM,Head of RevOps,partner_list,EXCLUDE_COMPETITOR,exclude_competitor,,,,none,,,
+18,18,Zoe,Hart,zoe.hart@rubia-demo.example,Rubia Demo,Marketing Ops Manager,sales_nominated,EXCLUDE_INTERNAL,exclude_internal,,,,none,,,
+19,19,Tom,Baker,tom.baker@brightline,Brightline Logistics,Sales Ops Manager,partner_list,QUARANTINE_INVALID_EMAIL,quarantine_invalid_email;suggest:brightline.example,,,,company_name,,,"backfilled_from_crm:employees,industry"
+20,20,Kai,Nunez,kai.nunez@vantorahq.example,Vantora,Head of Revenue Operations,website_signup,QUARANTINE_UNTRUSTED_TEXT,quarantine_untrusted_text;notes_injection_markers,,,,none,,,
+21,21,Lily,Evans,lily.evans@marlowbank.example,Marlow Bank,Director Marketing Operations,past_event,EXCLUDE_SUPPRESSED,exclude_suppressed;opt_out_in_notes,,,,none,,,
+22,22,Finn,Doyle,finn.doyle@corvidai.example,Corvid AI,Marketing Ops Coordinator,partner_list,EXCLUDE_PERSONA,exclude_persona;seniority_rank:1<2,,,,none,,,
+23,23,Mia,Torres,mia.torres@orbitfin.example,Orbit Finance,Head of Sales Operations,partner_list,INVITE,invite;tier:A;enterprise;icp_industry;director_plus,A,7,6,none,,found,enrichment_description_quarantined
+24,24,Ethan,Cole,ethan.cole@palisade.example,Palisade Data,RevOps Manager,partner_list,HOLD_MISSING_DATA,hold_missing_data;missing:employees,,,,none,,not_found,
+25,25,Priya,Shah,priya.shah@helixsoft.example,Helixsoft,VP Revenue Operations,partner_list,INVITE,invite;tier:A;enterprise;icp_industry;director_plus,A,7,7,none,108,,
+26,26,Oliver,Wren,o.wren@stratus-hr.example,Stratus HR,Director of Sales Operations,sales_nominated,INVITE,invite;tier:A;mid_market;icp_industry;director_plus;sales_nominated,A,8,2,none,,,
+27,27,Isla,Murray,isla.murray@beaconly.example,Beaconly,Head of CRM,partner_list,INVITE,invite;tier:A;mid_market;icp_industry;director_plus,A,6,8,none,,,
+28,28,Jack,Pryce,jack.pryce@meridianpay.example,Meridian Pay,RevOps Manager,past_event,INVITE,invite;tier:B;mid_market;icp_industry;prior_event,B,5,9,none,,,
+29,29,Ruby,Hale,ruby.hale@foxglove.example,Foxglove Legal,Marketing Operations Manager,partner_list,WAITLIST_CAPACITY,waitlist_capacity;rank_after:10,C,2,13,none,,,
+30,30,Dev,Malik,dev.malik@northstar-it.example,Northstar IT,"Senior Manager, Revenue Operations",partner_list,WAITLIST_CAPACITY,waitlist_capacity;rank_after:10,B,4,12,none,,,

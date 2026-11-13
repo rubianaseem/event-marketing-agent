@@ -1,0 +1,30 @@
+{
+  "policy_version": "2026-11-13.1",
+  "snapshot_max_age_hours": 24,
+  "approval_ttl_hours": 72,
+  "internal_domains": ["rubia-demo.example"],
+  "competitor_domains": ["rivalcrm.example", "pipeforge.example"],
+  "personal_email_domains": ["gmail.com", "googlemail.com", "outlook.com", "hotmail.com", "hotmail.co.uk", "yahoo.com", "yahoo.co.uk", "icloud.com", "me.com", "proton.me", "protonmail.com", "live.com", "aol.com"],
+  "personal_email_requires_opt_in": true,
+  "segments": {"smb_max_employees": 199, "mid_market_max_employees": 999},
+  "seniority_rank": {"intern": 0, "assistant": 0, "coordinator": 1, "specialist": 1, "analyst": 1, "associate": 1, "manager": 2, "lead": 2, "senior manager": 3, "head": 4, "director": 4, "vp": 5, "vice president": 5, "chief": 6, "cro": 6, "founder": 6},
+  "icp_industries": ["software", "saas", "computer software", "fintech", "financial services", "professional services", "information technology"],
+  "tier_weights": {"enterprise": 3, "mid_market": 2, "icp_industry": 2, "seniority_director_plus": 2, "prior_event_attended": 1, "sales_nominated": 2, "open_deal_allowed_team": 1},
+  "tier_a_min": 6,
+  "tier_b_min": 4,
+  "enrichment": {
+    "_note": "Credits per field are YOUR assumption for budgeting, not published Clay pricing. Set them from your own workspace before approving a real run.",
+    "fields_needed_for_targeting": ["country", "employees", "industry"],
+    "credits_per_field": {"country": 1, "employees": 1, "industry": 1, "title": 2},
+    "max_credits_without_escalation": 40,
+    "max_attempts": 4,
+    "base_delay_seconds": 1.0,
+    "max_delay_seconds": 30.0
+  },
+  "attribution": {
+    "associate_statuses": ["attended", "registered_no_show"],
+    "last_touch_statuses": ["attended"],
+    "first_touch_only_if_empty": true,
+    "never_write_properties": ["hs_analytics_source", "hs_analytics_source_data_1", "hs_analytics_source_data_2", "hs_latest_source", "lifecyclestage", "hubspot_owner_id"]
+  }
+}

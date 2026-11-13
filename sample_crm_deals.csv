@@ -1,0 +1,5 @@
+# SYNTHETIC DATA. HubSpot-shaped deal export.
+deal_id,company_id,dealname,stage,is_closed,owner_id
+d1,c101,Harbourline - Platform expansion,contractsent,false,o2
+d2,c104,Kestrel Cloud - New business,qualifiedtobuy,false,o1
+d3,c103,Brightline - Pilot,closedlost,true,o3

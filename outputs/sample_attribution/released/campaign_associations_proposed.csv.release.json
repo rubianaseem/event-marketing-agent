@@ -1,0 +1,8 @@
+{
+  "artifact": "campaign_associations_proposed.csv",
+  "sha256": "dad7e38f834d293b67fc7df3847f40bcf7e12a38425b6b13936ef29d919902fa",
+  "approved_by": "Rubia Naseem",
+  "approved_at": "2026-12-04T10:00:00Z",
+  "released_at": "2026-12-04T10:00:00Z",
+  "next_step": "Manual: add these contacts to the campaign in HubSpot (static list associated to the campaign). Campaign influence cannot be removed once set."
+}
